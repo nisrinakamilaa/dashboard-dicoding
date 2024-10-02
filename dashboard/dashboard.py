@@ -6,6 +6,11 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
+import os
+if os.path.exists('day_data.csv'):
+    # File exists
+else:
+    # File does not exist
 
 def create_renters_hour_df(hour_df):
     renters_hour_df = hour_df.groupby(by="hr").agg({
