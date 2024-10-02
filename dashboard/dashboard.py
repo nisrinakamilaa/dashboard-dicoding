@@ -52,8 +52,8 @@ def create_renters_season_df(day_df):
     return season_df
 
 
-day_df = pd.read_csv("day_data.csv")
-hour_df = pd.read_csv("hour_data.csv")
+day_df = pd.read_csv("data/day_data.csv")
+hour_df = pd.read_csv("data/hour_data.csv")
 
 datetime_columns = ["dteday"]
 day_df.sort_values(by="dteday", inplace=True)
