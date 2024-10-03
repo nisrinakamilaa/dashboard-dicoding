@@ -8,6 +8,9 @@ pip install numpy pandas matplotlib seaborn babel streamlit
 ```
 
 ## Run steamlit app
+```
+streamlit run dashboard.py
+```
 :link: [Dashboard Syntax](https://github.com/nisrinakamilaa/dashboard-dicoding/blob/main/dashboard/dashboard.py)
 
 :desktop_computer: [Dashboard](https://dashboard-dicoding-g9v4w3kkl2ufvx2tu5az4k.streamlit.app/)
